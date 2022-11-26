@@ -1,0 +1,56 @@
+html,
+body,
+main {
+  font-size: 14pt;
+  padding: 0;
+  height: auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  position: relative;
+  top: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+/*body border*/
+
+#top,
+#bottom,
+#left,
+#right {
+  background: #000000;
+  position: fixed;
+}
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 20px;
+}
+#left {
+  left: 0;
+}
+#right {
+  right: 0;
+}
+
+#top,
+#bottom {
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+#top {
+  top: 0;
+}
+#bottom {
+  bottom: 0;
+}
